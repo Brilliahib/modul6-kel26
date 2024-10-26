@@ -11,6 +11,7 @@ export default function index({ data, onClick }) {
           <div className="card-info">
             <h3>{data.l}</h3>
             <p>{data.q}</p>
+            <p>{data.s}</p>
           </div>
         </>
       ) : (

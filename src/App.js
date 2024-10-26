@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Pages
@@ -10,6 +10,9 @@ import Header from "./components/header";
 import "./App.css";
 
 function App() {
+  useEffect(() => {
+    document.title = "Kelompok 26";
+  }, []);
   return (
     <div className="App">
       <Header />
